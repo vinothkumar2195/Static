@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+body
+{
+background-color:rgb(25, 140, 86);
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+      background-color:rgb(10, 68, 41);
+}
+.navbar li {
+  display: inline-block;
+  float:left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:rgb(10, 68, 41);
+}
+li.left{
+  float:right;
+}
+
+.navbar  li:hover {
+    background-color: #111;
+}
+
+
+.bikes{
+  width:80%;
+  margin-left: 10%;
+  height: auto;
+}
+
+.bike-type ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+.bike-type li {
+  display:block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.bike-type  li.set:hover  {
+    background-color:#111;
+
+
+
+}
+
+.column1 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+.column1 li {
+  display:block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.column1 li:hover {
+    background-color: #111;
+}
+.column2 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+.column2 li {
+  display:block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.column2 li:hover {
+    background-color: #111;
+}
